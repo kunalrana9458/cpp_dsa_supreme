@@ -49,7 +49,7 @@ void mergeSort(vector<int>& nums,int start,int end){
 }
 int main()
 {
-    vector<int> nums={34, 1, 8, 50, 7, 15, 2, 60, 29, 13, 22, -5, -10, 48, 18, 5};
+    vector<int> nums={4,1,3,9,7};
     int start=0;
     int end=nums.size()-1;
     mergeSort(nums,start,end);
