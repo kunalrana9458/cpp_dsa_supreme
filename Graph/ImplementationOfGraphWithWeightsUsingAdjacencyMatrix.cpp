@@ -98,15 +98,13 @@ class Graph{
 int main()
 {
     Graph g;
-    g.addEdge(0,3,5,1);
-    g.addEdge(0,5,6,1);
-    g.addEdge(0,2,2,1);
-    g.addEdge(2,5,7,1);
-    g.addEdge(3,5,2,1);
-    g.addEdge(5,4,3,1);
-    g.addEdge(5,6,3,1);
-    g.addEdge(4,1,1,1);
-    g.addEdge(6,1,8,1);
+    g.addEdge(0,1,20,0);
+    g.addEdge(1,2,20,0);
+    g.addEdge(2,5,20,0);
+    g.addEdge(5,4,20,0);
+    g.addEdge(5,6,20,0);
+    g.addEdge(3,4,20,0);
+    g.addEdge(4,6,20,0);
     g.printAdjList(7);
     cout << "BFS:" ;
     g.bfsTraversal(0);
